@@ -13,3 +13,6 @@ pip-selfcheck.json
 .bash_history
 .python_history
 .DS_Store
+
+mnist/
+lang/
