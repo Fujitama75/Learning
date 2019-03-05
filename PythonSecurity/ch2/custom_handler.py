@@ -1,5 +1,4 @@
 #!/usr/bin/python
-#-*- coding: utf-8 -*-
 
 from http.server import HTTPServer
 from http.server import SimpleHTTPRequestHandler
