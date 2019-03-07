@@ -18,3 +18,4 @@ mnist/
 lang/
 .ipynb_checkpoints
 log_dir/
+mecab-ipadic-neologd/
