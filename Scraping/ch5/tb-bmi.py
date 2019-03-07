@@ -23,8 +23,8 @@ test_ans = list(test_csv["label_pat"])
 
 # データフローグラフを構築する --- (*5)
 # データを入れるプレースホルダを宣言
-x = tf.placeholder(tf.float32, [None, 2], name="x") 
-y_ = tf.placeholder(tf.float32, [None, 3], name="y_") 
+x = tf.placeholder(tf.float32, [None, 2], name="x")
+y_ = tf.placeholder(tf.float32, [None, 3], name="y_")
 
 # 変数を宣言 --- (*6)
 with tf.name_scope('interface') as scope:
